@@ -764,27 +764,18 @@ a.social-card:focus-visible {
   flex: 0 0 39px;
   place-items: center;
   border: 1px solid rgba(235, 239, 222, 0.14);
-  color: var(--color-accent);
-  font-size: 19px;
-  font-weight: 600;
-  line-height: 1;
 }
 
-.social-icon-instagram {
-  font-size: 25px;
+.social-icon img {
+  display: block;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
 }
 
-.social-icon-youtube {
-  font-size: 13px;
-}
-
-.social-icon-github {
-  font-size: 18px;
-}
-
-.social-icon-steam {
-  font-family: var(--font-mono);
-  font-size: 14px;
+.social-card-coming .social-icon img {
+  filter: brightness(0) invert(0.55);
 }
 
 .social-name {
