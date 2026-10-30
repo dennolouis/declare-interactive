@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Declare Interactive is an independent game studio founded by solo developer Denno Louis, creating high-octane action games."
+    >
+    <meta name="theme-color" content="#101110">
+    <title>Declare Interactive — Independent Games, Uncompromising Worlds</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="wordmark" href="#home" aria-label="Declare Interactive home">
+          <span class="wordmark-mark" aria-hidden="true">D</span>
+          <span class="wordmark-name">DECLARE<span>INTERACTIVE</span></span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+          aria-label="Open navigation menu"
+        >
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="primary-navigation" id="primary-navigation" aria-label="Main navigation">
+          <a href="#games">Games</a>
+          <a href="#studio">Studio</a>
+          <a href="#community">Community</a>
+          <a class="nav-cta" href="https://itch.io" target="_blank" rel="noopener noreferrer">
+            Find us on Itch.io <span aria-hidden="true">↗</span>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero-backdrop" aria-hidden="true"></div>
+        <div class="hero-grid container">
+          <div class="hero-content">
+            <p class="eyebrow"><span class="status-dot"></span> Independent game studio</p>
+            <h1 id="hero-title">Make every<br>fight <span>matter.</span></h1>
+            <p class="hero-copy">
+              Solo indie game developer building high-octane action games.
+              Worlds to get lost in. Combat to earn your way through.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="https://itch.io" target="_blank" rel="noopener noreferrer">
+                Explore on Itch.io <span aria-hidden="true">↗</span>
+              </a>
+              <a class="text-link" href="#games">Discover the game <span aria-hidden="true">↓</span></a>
+            </div>
+            <div class="hero-note">
+              <span class="note-line" aria-hidden="true"></span>
+              <span>Built independently. Made for the fight.</span>
+            </div>
+          </div>
+          <div class="hero-art" aria-label="A lone warrior faces a distant castle">
+            <div class="hero-frame">
+              <img src="assets/img2.jpg" alt="A lone warrior stands before a mist-covered gothic castle">
+              <div class="art-caption">
+                <span class="caption-index">01 / 03</span>
+                <span>Into the unknown</span>
+              </div>
+            </div>
+            <span class="hero-crosshair crosshair-one" aria-hidden="true">+</span>
+            <span class="hero-crosshair crosshair-two" aria-hidden="true">+</span>
+            <div class="hero-side-label" aria-hidden="true">DECLARE YOURSELF — INDEPENDENTLY</div>
+          </div>
+          <div class="hero-index" aria-hidden="true">01 <span>/</span> 03</div>
+        </div>
+        <a class="scroll-cue" href="#games">
+          <span class="scroll-cue-line" aria-hidden="true"></span>
+          Scroll to explore
+        </a>
+      </section>
+
+      <section class="section games-section" id="games" aria-labelledby="games-title">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow section-eyebrow"><span>01</span> The work</p>
+              <h2 id="games-title">In the making<span class="accent-period">.</span></h2>
+            </div>
+            <p class="section-intro">
+              One creator. One world in progress. A whole lot of stubborn determination.
+            </p>
+          </div>
+
+          <article class="game-card">
+            <div class="game-visual">
+              <img
+                src="assets/img3.jpg"
+                alt="A warrior confronts a towering armored creature in a ruined cathedral"
+                loading="lazy"
+              >
+              <div class="game-visual-shade"></div>
+              <span class="game-status"><span class="status-dot"></span> In development</span>
+              <span class="game-art-index" aria-hidden="true">D.I. / 001</span>
+            </div>
+            <div class="game-details">
+              <p class="eyebrow game-kicker">A new action experience</p>
+              <h3>The Hollow Oath</h3>
+              <p class="working-title">Working title</p>
+              <p class="game-description">
+                Step into a fallen kingdom where every encounter tests your timing,
+                resolve, and willingness to try again. A challenging souls-like
+                adventure is taking shape.
+              </p>
+              <ul class="tag-list" aria-label="Game details">
+                <li>Unreal Engine</li>
+                <li>Action / Souls-like</li>
+                <li>Single-player</li>
+              </ul>
+              <div class="game-footer">
+                <a class="button button-outline" href="https://itch.io" target="_blank" rel="noopener noreferrer">
+                  Follow on Itch.io <span aria-hidden="true">↗</span>
+                </a>
+                <span class="game-platform">PC <span aria-hidden="true">·</span> Coming soon</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="studio-section" id="studio" aria-labelledby="studio-title">
+        <div class="studio-image">
+          <img
+            src="assets/img1.jpg"
+            alt="A warrior explores a shadowy forest"
+            loading="lazy"
+          >
+        </div>
+        <div class="studio-content">
+          <p class="eyebrow section-eyebrow"><span>02</span> The studio</p>
+          <h2 id="studio-title">Small team.<br><span>Big worlds.</span></h2>
+          <p>
+            Declare Interactive is an independent game studio founded by solo
+            developer Denno Louis. It's a one-person operation with a big
+            imagination and a focus on memorable action.
+          </p>
+          <p>
+            From the first rough prototype to the final boss fight, every part
+            of the journey is built with care. The goal is simple: make games
+            that stay with you long after the controller is down.
+          </p>
+          <a class="text-link studio-link" href="https://denno.dev" target="_blank" rel="noopener noreferrer">
+            More about Denno <span aria-hidden="true">↗</span>
+          </a>
+          <span class="studio-stamp" aria-hidden="true">D<br><small>EST. INDIE</small></span>
+        </div>
+      </section>
+
+      <section class="section community-section" id="community" aria-labelledby="community-title">
+        <div class="container">
+          <div class="section-heading community-heading">
+            <div>
+              <p class="eyebrow section-eyebrow"><span>03</span> Stay in the loop</p>
+              <h2 id="community-title">Follow the journey<span class="accent-period">.</span></h2>
+            </div>
+            <p class="section-intro">
+              Development notes, behind-the-scenes, and the occasional boss-fight failure.
+            </p>
+          </div>
+
+          <div class="social-grid">
+            <a class="social-card" href="https://x.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter or X">
+              <span class="social-icon" aria-hidden="true">𝕏</span>
+              <span class="social-name">Twitter / X</span>
+              <span class="social-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="social-card" href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <span class="social-icon social-icon-instagram" aria-hidden="true">◎</span>
+              <span class="social-name">Instagram</span>
+              <span class="social-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="social-card" href="https://tiktok.com" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+              <span class="social-icon" aria-hidden="true">♪</span>
+              <span class="social-name">TikTok</span>
+              <span class="social-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="social-card" href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+              <span class="social-icon social-icon-youtube" aria-hidden="true">▶</span>
+              <span class="social-name">YouTube</span>
+              <span class="social-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="social-card" href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <span class="social-icon social-icon-github" aria-hidden="true">⌘</span>
+              <span class="social-name">GitHub</span>
+              <span class="social-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="social-card social-card-coming" aria-label="Steam wishlist coming soon">
+              <span class="social-icon social-icon-steam" aria-hidden="true">S</span>
+              <span class="social-name">Wishlist on Steam</span>
+              <span class="coming-soon">Coming soon</span>
+            </div>
+          </div>
+          <p class="social-footnote">Have a question or just want to say hi? <a href="https://denno.dev">Get in touch ↗</a></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="wordmark footer-wordmark" href="#home" aria-label="Declare Interactive home">
+          <span class="wordmark-mark" aria-hidden="true">D</span>
+          <span class="wordmark-name">DECLARE<span>INTERACTIVE</span></span>
+        </a>
+        <p>© <span id="current-year">2025</span> Declare Interactive. All rights reserved.</p>
+        <a class="footer-credit" href="https://denno.dev" target="_blank" rel="noopener noreferrer">
+          Crafted by <span>Denno Louis</span> <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
