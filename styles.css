@@ -212,6 +212,15 @@ img {
   padding-bottom: 15px;
 }
 
+.hero-content > .founder-byline {
+  display: block;
+  margin-top: 10px;
+  color: #85877f;
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 0.14em;
+}
+
 .eyebrow {
   display: flex;
   align-items: center;
